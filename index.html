@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravação de Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#videoComponent" id="cameraLink">
+        <div class="camera-icon"></div>
+    </a>
+    
+    <div id="videoComponent" style="display: none;">
+        <video id="videoElement" autoplay></video>
+        <button id="startRecording">Pressione e segure para gravar</button>
+        <button id="stopRecording" disabled>Parar Gravação</button>
+        <video id="recordedVideo" controls></video>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

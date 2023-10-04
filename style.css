@@ -1,0 +1,9 @@
+
+.camera-icon {
+    width: 64px;
+    height: 64px;
+    background-image: url('cameraicon.png'); /* Substitua 'camera-icon.png' pelo caminho do seu ícone de câmera */
+    background-size: cover;
+    cursor: pointer;
+    margin: 20px auto;
+}
